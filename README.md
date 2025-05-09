@@ -51,7 +51,7 @@ Welcome to your new **Simple Admin Dashboard Template** built with Next.js! This
 
 ```
 ├── app/                # Next.js App Router
-│	├── Dashboard		# DashBoard files and folders
+│   ├── Dashboard		# DashBoard files and folders
 │   ├── layout.tsx      # Root layout and providers
 │   └── page.tsx        # Main dashboard page
 ├── tsconfig.json       # TypeScript configuration
@@ -70,7 +70,7 @@ Welcome to your new **Simple Admin Dashboard Template** built with Next.js! This
 1. **Clone the repo**:
 
    ```bash
-	git clone [https://github.com/AmalJose664/Nextjs-Admin-Dashboard-Template.git](https://github.com/AmalJose664/Nextjs-Admin-Dashboard-Template.git)
+	git clone https://github.com/AmalJose664/Nextjs-Admin-Dashboard-Template.git
 	cd Nextjs-Admin-Dashboard-Template
 	```
 
