@@ -35,7 +35,7 @@ const UserDetails = () => {
 			</div>
 
 			<div className="mb-8">
-				<h2 className="text-xl font-semibold text-gray-700 mb-4">Abouts</h2>
+				<h2 className="text-xl font-semibold text-gray-700 mb-4">About</h2>
 				<p className="text-gray-600">{user.bio}</p>
 			</div>
 
@@ -44,9 +44,29 @@ const UserDetails = () => {
 				<h2 className="text-xl font-semibold text-gray-700 mb-4">
 					Recent Activities
 				</h2>
-				<ul>
+
+				<ul className="space-y-4">
+					{user.activities.map((activity)=>(
+						<li key={activity.id} className="flex items-center space-x-4">
+							<div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center">
+								<span className="text-sm">{user.name[0]}</span>
+							</div>
+							<div>
+								<p className="text-gray-700">{activity.description}</p>
+								<p className="text-sm text-gray-500">{activity.timestamp}</p>
+							</div>
+						</li>
+					))}
 
 				</ul>
+			</div>
+			<div className="flex justify-end space-x-4">
+				<button className="px-6 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">
+					Edit Profile
+				</button>
+				<button className="px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+					Send Message
+				</button>
 			</div>
 		</div>
 	</div>
