@@ -41,32 +41,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 Welcome to your new **Simple Admin Dashboard Template** built with Next.js! This template provides a clean, minimalistic starting point for building custom admin interfaces and internal tools.
 
-## Key Features
-
-* **Responsive Layout**: Mobile-first design ensures your dashboard looks great on any device.
-* **Sidebar Navigation**: Collapsible sidebar for easy access to different sections.
-* **Header Bar**: Quick links, user profile menu, and notification icon.
-* **Base Components**: Includes buttons, cards, tables, forms, and modals out of the box.
-* **Theming Support**: Easily switch between light and dark modes.
-* **Performance Optimized**: Leveraging Next.js built-in optimization features for fast load times.
-
 ## Tech Stack
 
 * **Next.js**: React framework for production.
 * **TypeScript**: Strongly-typed JavaScript for improved developer experience.
 * **Tailwind CSS**: Utility-first CSS for rapid UI styling.
-* **React Icons**: A collection of popular icons as React components.
-* **SWR**: React Hooks for data fetching and caching.
 
 ## Project Structure
 
 ```
 ├── app/                # Next.js App Router
+│	├── Dashboard		# DashBoard files and folders
 │   ├── layout.tsx      # Root layout and providers
 │   └── page.tsx        # Main dashboard page
-├── components/         # Reusable React components
-├── styles/             # Global and component-specific styles
-├── public/             # Static assets (images, fonts)
 ├── tsconfig.json       # TypeScript configuration
 └── package.json        # Project dependencies and scripts
 ```
@@ -83,19 +70,16 @@ Welcome to your new **Simple Admin Dashboard Template** built with Next.js! This
 1. **Clone the repo**:
 
    ```bash
-   ```
-
-git clone [https://github.com/your-username/your-admin-template.git](https://github.com/your-username/your-admin-template.git)
-cd your-admin-template
-
-````
+	git clone [https://github.com/AmalJose664/Nextjs-Admin-Dashboard-Template.git](https://github.com/AmalJose664/Nextjs-Admin-Dashboard-Template.git)
+	cd Nextjs-Admin-Dashboard-Template
+	```
 
 2. **Install dependencies**:
 
    ```bash
-npm install
-# or
-yarn install
+	npm install
+	# or
+	yarn install
 ````
 
 3. **Run the development server**:
@@ -103,7 +87,7 @@ yarn install
    ```bash
    ```
 
-npm run dev
+	npm run dev
 
 ```
 
